@@ -2,17 +2,17 @@
 
 :::{admonition} Is attendence required?
 :class: question, dropdown
-Yes! This will be an in-person seminar, and active participation will raise your final mark.  In few expections the material can be catched up from home, but absence has to be justified in advance.
+Yes! This will be an in-person seminar, and active participation will be required e.g., during group improvs to pass the seminar.  In few exceptions the material can be catched up from home, but absence has to be justified in advance!
 :::
 
 :::{admonition} Is the seminar graded?
 :class: question, dropdown
-Yes! The seminar will be graded by (1) active participation in classroom interactions and (2) a final poster presentation. The final grade will yield 5 credits.  
+No! The seminar will only be passed, and will yield 3 credits.
 :::
 
-:::{admonition} Do I need to commit to a thesis topic?
+:::{admonition} Do I need to understand everything to pass?
 :class: question, dropdown
-No! You will have the chance to develop different research questions throughout the seminar. We will focus on methods for computational ethology, but you can also change your final thesis topic after the seminar.
+Well, no! The topic of this semiar will be rather challenging, and the idea is to get familiar with the topic. You will have many hands on exercises to practice and sufficient time to ask for help.
 :::
 
 :::{admonition} Where can I find help?

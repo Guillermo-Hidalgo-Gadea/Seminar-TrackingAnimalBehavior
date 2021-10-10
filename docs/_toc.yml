@@ -12,12 +12,7 @@ parts:
     - file: FAQs
   - caption: Lectures
     chapters:
-    - file: 1_IntroductionToComputationalEthology
-    - file: 2_WhyTrackingIsNotBehavior
-    - file: 3_LevelsOfAnalysisAndQuantificationOfBehavior
-    - file: 4_ClassificationOfAnimalBehavior
-    - file: 5_TheProblemsOfSpacetime
-    - file: 6_MeasuringInMultidimensionalSpace
+    - file: archive
   - caption: Exercises
     chapters:
     - file: HandsOnTutorials
