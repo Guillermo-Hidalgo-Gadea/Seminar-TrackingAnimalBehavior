@@ -29,6 +29,9 @@ We positioned seven Basler acA1920-155um cameras (FUJIFILM AG, Niederhaslistrass
 
 ```{toggle}
 <iframe width="800" height="500" src="https://www.youtube.com/embed/9iD2tnw1HrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 50%;"><figure style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 50%; margin-block-end: 0; margin-block-start: 0; margin-inline-start: 0; margin-inline-end: 0;" ><iframe src="https://media.publit.io/file/G8b5fBL1.html?at=eyJpdiI6IllETFdXdFhFY0FzU0ZtRUNwK1loK3c9PSIsInZhbHVlIjoidGlBd2pmTXN2elJWcUowWDUxeW5SZkJ2eWtyM3o3eGRmeFNydDRRUmFhdz0iLCJtYWMiOiJjYzBmNjUxODNmYTk1Y2Q0NzlkOWVhZjgwYmJhYWEyYWNiMGEwMmI1MmQ1MzJmMGFjZjU5OGM2MDExMzIyM2RlIn0=" scrolling="no" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute; overflow:hidden;" allowfullscreen=""></iframe></figure></div></div>
+
 ```
 
 
