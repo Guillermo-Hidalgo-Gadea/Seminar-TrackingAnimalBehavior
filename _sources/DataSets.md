@@ -18,6 +18,7 @@ Freely behaving mice in open field exploration experiment. Mice were placed in t
 
 ```{toggle}
 <iframe width="800" height="500" src="../../datasets/demo_mouse.mp4"></iframe>
+![video]("../../datasets/demo_mouse.mp4")
 ```
 
 ### Fly data for 3D analysis by [Pavan Ramdya](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PKKXOE)
