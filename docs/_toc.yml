@@ -12,13 +12,22 @@ parts:
     - file: FAQs
   - caption: Lectures
     chapters:
-    - file: archive
+    - file: Lecture1
+    - file: Lecture2
+    - file: Lecture3
+    - file: Lecture4
+    - file: Lecture5
   - caption: Exercises
     chapters:
-    - file: HandsOnTutorials
-  - caption: Data sets
+    - file: Exercise1
+    - file: Exercise2
+    - file: Exercise3
+    - file: Exercise4
+    - file: Exercise5
+  - caption: Datasets and Projects
     chapters:
     - file: DataSets
+    - file: ProjectIdeas
   - caption: Feedback
     chapters:
     - file: feedbackform
@@ -28,3 +37,5 @@ parts:
 #      - file: notebooks
 #      - file: markdown
 #      - file: testnotebook
+
+
