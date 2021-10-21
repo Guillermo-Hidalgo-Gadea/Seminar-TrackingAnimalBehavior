@@ -2,7 +2,7 @@
 
 :::{admonition} Is attendence required?
 :class: question, dropdown
-Yes! This will be an in-person seminar, and active participation will be required e.g., during group improvs to pass the seminar.  In few exceptions the material can be catched up from home, but absence has to be justified in advance!
+Yes! This will be an in-person seminar, and active participation will be required (e.g., during group improvs) to pass the seminar. In few exceptions the material can be catched up from home, but absence has to be justified in advance!
 :::
 
 :::{admonition} Is the seminar graded?

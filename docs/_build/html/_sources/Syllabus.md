@@ -1,6 +1,6 @@
 # Syllabus
 
-**Title:** Tracking Animal Behavior - Block Seminar
+**Title:** Tracking Animal Behavior - Block Seminar  
 **ID:** 118924  
 **Credits:** 3  
 **Workload:** 2 semester hours per week  
@@ -13,9 +13,14 @@ New advances in computer vision and machine learning have changed the way we mea
 
 ## Expectations
 
-Programming skills are not necessary, but technical affinity and basic computer skills will be advantageous. The course language may be either English or German, depending on students’ background. The Block seminar will consist of one introductory session and six seminar days, grouped in three consecutive blocks. The final schedule will be discussed on Friday, October 22nd, 2021. The course will consist of lectures, discussions, group improvs and hands on exercises. Group improvs are an active learning strategy consisting of short (unprepared) presentations of ongoing group projects. The **seminar will not be graded**, but active participation and classroom interaction is expected. 
+Programming skills are not necessary, but technical affinity and basic computer skills will be advantageous. The course language may be either English or German, depending on students’ background. The Block seminar will consist of one introductory session and six seminar days, grouped in three consecutive blocks. The final schedule will be discussed on Friday, October 22nd, 2021. The course will consist of lectures, discussions, group improvs and hands on exercises. Group improvs are an active learning strategy consisting of short (unprepared) presentations of ongoing group projects. The **seminar will not be graded**, but active participation and classroom interaction is necessary to pass the class. 
 
 ## Contents
+
+:::{note}
+The schedule content and duration may be subject to slight changes at short notice.
+:::
+
 **Introduction, Fr. 22.10.2021 2pm**
 -	Lecture: About me and Syllabus
 -	Discussion: Scheduling
@@ -67,3 +72,4 @@ Individual appointments (if necessary)
 -	Hands on: Prepare final presentation 
 -	Group improv: Hypothesis, methods, and results
 -	Discussion: Pros and cons of DeepLabCut
+
