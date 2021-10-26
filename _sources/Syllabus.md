@@ -56,7 +56,7 @@ Homework: Own data collection (if necessary)
 -	Hands on: DeepLabCut projects (labeling)
 
 Individual appointments (if necessary)
--	Training GLC model with GPU
+-	Training DLC model with GPU
 -	Analyzing videos with GPU
 
 ---
