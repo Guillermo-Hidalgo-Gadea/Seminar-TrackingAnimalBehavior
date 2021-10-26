@@ -34,3 +34,22 @@ The content of this book will be expanded and updated throughout the course!
 :::{tip} Your final project will be featured here at the end of the course! 
 <iframe src="https://giphy.com/embed/s2qXK8wAvkHTO" width="300" frameBorder="0" class="giphy-embed" align="right"></iframe>
 :::
+
+## Group Projects
+
+**Group A: Sarah & Sarah**
+Bewegungsanalyse Katze (..oder vielleicht auch etwas anderes.)
+
+**Group B: Miriam & Roberta** 
+(Weg-)Rennverhalten von Menschen (aus Angst gegenüber just for fun) (Augenrollen) 
+
+**Group C: Beyza & Janna (& Aline)**
+
+**Group D: Jil, Laurin & Lea**
+Compare Tracking Performance with different labels in Pigeons
+
+**Group E: Laurin**
+I could also join whoever joins the seminar for the next session
+
+**Group F: Petunia**
+something with humans or something more general 
