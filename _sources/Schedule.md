@@ -14,6 +14,7 @@
 
 The block seminar is expected to go for 6 hours with plenty of breaks, on Friday and Saturday from **10 am to 4 pm**. Slight variations in the schedule will be discussed at short notice. While 36h may sound like quite a lot, 3 credits assume a total semester workload of 75h to 90h! See [ECTS guidelines](https://op.europa.eu/de/publication-detail/-/publication/da7467e6-8450-11e5-b8b7-01aa75ed71a1).  
 **The deal:** Attendance and active participation for 36 hours, and up to 54 extra hours of free time.
+___
 
 ## Poll Results from Friday October 22nd 2021
 The schedule above was chosen by majority vote on polls during the introductory session on Friday the 22nd of October 2021. While it was not possible to accomodate everyones preferences, the following dates were acceptable to most of the students. 
@@ -22,8 +23,8 @@ Block 1 will take place on **Friday 12th and Saturday 13th of November**. Block 
 :::{note}
 Please remember that attendance is necessary for active participation and hence for passing this seminar. Please get in touch if you have foreseeable scheduling conflicts and remember to justify your absence in advance.
 :::
+___
 
-## Polls on Friday October, 22nd
 
-<iframe class="qp_iframe" src="https://poll-maker.com/frame3958561x0497484C-125" seamless="seamless" frameborder="no" style="border:0; background:transparent; height:500px;"></iframe> <iframe class="qp_iframe" src="https://poll-maker.com/frame3958573x80216Ce4-125" seamless="seamless" frameborder="no" style="border:0; background:transparent; height:500px;"></iframe><iframe class="qp_iframe" src="https://poll-maker.com/frame3958583xc0124117-125" seamless="seamless" frameborder="no" style="border:0; background:transparent; height:500px;"></iframe>
+< iframe class="qp_iframe" src="https://poll-maker.com/frame3958561x0497484C-125" seamless="seamless" frameborder="no" style="border:0; background:transparent; height:500px;"></iframe> < iframe class="qp_iframe" src="https://poll-maker.com/frame3958573x80216Ce4-125" seamless="seamless" frameborder="no" style="border:0; background:transparent; height:500px;"></iframe>< iframe class="qp_iframe" src="https://poll-maker.com/frame3958583xc0124117-125" seamless="seamless" frameborder="no" style="border:0; background:transparent; height:500px;"></iframe>
 
