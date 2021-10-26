@@ -26,5 +26,4 @@ Please remember that attendance is necessary for active participation and hence 
 ___
 
 
-< iframe class="qp_iframe" src="https://poll-maker.com/frame3958561x0497484C-125" seamless="seamless" frameborder="no" style="border:0; background:transparent; height:500px;"></iframe> < iframe class="qp_iframe" src="https://poll-maker.com/frame3958573x80216Ce4-125" seamless="seamless" frameborder="no" style="border:0; background:transparent; height:500px;"></iframe>< iframe class="qp_iframe" src="https://poll-maker.com/frame3958583xc0124117-125" seamless="seamless" frameborder="no" style="border:0; background:transparent; height:500px;"></iframe>
 
