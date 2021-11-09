@@ -17,8 +17,8 @@ The block seminar is expected to go for 6 hours with plenty of breaks, on Friday
 ___
 
 ## Poll Results from Friday October 22nd 2021
-The schedule above was chosen by majority vote on polls during the introductory session on Friday the 22nd of October 2021. While it was not possible to accomodate everyones preferences, the following dates were acceptable to most of the students. 
-Block 1 will take place on **Friday 12th and Saturday 13th of November**. Block 2 will take place on **Friday 17th and Saturday 18th of December**. Block 3 will take place on **Friday 04th and Saturaday 05th of February**.
+The schedule above was chosen by majority vote on polls during the introductory session on Friday the 22nd of October 2021. While it was not possible to accommodate everyone's preferences, the following dates were acceptable to most of the students. 
+Block 1 will take place on **Friday 12th and Saturday 13th of November**. Block 2 will take place on **Friday 17th and Saturday 18th of December**. Block 3 will take place on **Friday 04th and Saturday 05th of February**.
 
 :::{note}
 Please remember that attendance is necessary for active participation and hence for passing this seminar. Please get in touch if you have foreseeable scheduling conflicts and remember to justify your absence in advance.
