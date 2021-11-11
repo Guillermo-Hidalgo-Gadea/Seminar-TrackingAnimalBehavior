@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Getting started with BORIS &#8212; Tracking Animal Behavior</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
@@ -22,8 +23,8 @@
       
 
     
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -33,17 +34,17 @@
     
   <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script >
+    <script>
         const thebe_selector = ".thebe,.cell"
         const thebe_selector_input = "pre,.cell_input div.highlight"
         const thebe_selector_output = ".output,.cell_output"
@@ -87,7 +88,7 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p class="caption">
+        <p class="caption" role="heading">
  <span class="caption-text">
   Course Information
  </span>
@@ -114,7 +115,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption" role="heading">
  <span class="caption-text">
   Lectures
  </span>
@@ -146,7 +147,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption" role="heading">
  <span class="caption-text">
   Exercises
  </span>
@@ -178,7 +179,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption" role="heading">
  <span class="caption-text">
   Datasets and Projects
  </span>
@@ -195,7 +196,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p class="caption" role="heading">
  <span class="caption-text">
   Feedback
  </span>
@@ -290,6 +291,34 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#documentation">
+   Documentation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#install-boris">
+   Install BORIS
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#create-new-project">
+   Create new project
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hands-on">
+   Hands on
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -298,13 +327,40 @@
         
               <div>
                 
-  <div class="section" id="getting-started-with-boris">
+  <section class="tex2jax_ignore mathjax_ignore" id="getting-started-with-boris">
 <h1>Getting started with BORIS<a class="headerlink" href="#getting-started-with-boris" title="Permalink to this headline">¶</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The content of this book will be expanded and updated throughout the course!</p>
-</div>
-</div>
+<p>BORIS is a Behavioral Observation Research Interactive Software for video/audio coding, event logging and live observations.</p>
+<p><strong>Documentation:</strong> <a class="reference external" href="https://boris.readthedocs.io/en/v7/">https://boris.readthedocs.io/en/v7/</a><br />
+<strong>Sourcecode:</strong> <a class="reference external" href="https://github.com/olivierfriard/BORIS">https://github.com/olivierfriard/BORIS</a></p>
+<section id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>Check the BORIS documentation for more background and tips on how to get started.</p>
+<iframe src="http://www.boris.unito.it/pages/documentation.html" frameborder="0.1" width="800" height="600"></iframe>
+</section>
+<section id="install-boris">
+<h2>Install BORIS<a class="headerlink" href="#install-boris" title="Permalink to this headline">¶</a></h2>
+<p>To install BORIS follow the instructions <a class="reference external" href="http://www.boris.unito.it/pages/download_win">here</a>. On Windows, downloading and extracting the portable version will be sufficient to get you started. Run the <strong>start_boris.bat</strong> script to start the graphical user interface.</p>
+</section>
+<section id="create-new-project">
+<h2>Create new project<a class="headerlink" href="#create-new-project" title="Permalink to this headline">¶</a></h2>
+<p>Choose from one of the three mystery options to start a new project:
+<strong>Video A, Video B or Video C</strong></p>
+<figure class="align-default" id="steps">
+<a class="reference internal image-reference" href="_images/montyhall.jpg"><img alt="_images/montyhall.jpg" src="_images/montyhall.jpg" style="width: 800px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Monty Hall Problem.</span><a class="headerlink" href="#steps" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="hands-on">
+<h2>Hands on<a class="headerlink" href="#hands-on" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>After inspecting the video file discuss with colleagues and edit an <em>ethogram</em> that may describe your video data best.</p></li>
+<li><p>Differentiate between <strong>point</strong> and <strong>state</strong> events and give appropriate descriptions to your behaviors. Try to</p></li>
+<li><p>tart a new observation with the corresponding video data and <em><strong>ENJOY</strong></em> manual scoring!</p></li>
+</ol>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
