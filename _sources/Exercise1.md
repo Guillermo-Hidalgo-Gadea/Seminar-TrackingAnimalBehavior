@@ -35,3 +35,10 @@ Monty Hall Problem.
 Check the BORIS documentation for more background and tips on how to get started.  
 
 <iframe width="800" height="500" frameborder="0.5" src="https://www.boris.unito.it/pages/video_tutorials.html"></iframe>
+
+## Literature
+
+Friard, O., & Gamba, M. (2016). BORIS: a free, versatile open‐source event‐logging software for video/audio coding and live observations. Methods in Ecology and Evolution, 7(11), 1325–1330. https://doi.org/10.1111/2041-210X.12584
+```{toggle}
+<iframe width="800" height="500" src="https://sci-hub.mksa.top/10.1111/2041-210X.12584"></iframe>
+```
