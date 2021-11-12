@@ -125,11 +125,6 @@ We can concluded that a closer look at *behavior* should differentiate between *
 
 ## Literature
 
-Anderson, D. J., & Perona, P. (2014). Toward a Science of Computational Ethology. Neuron, 84(1), 18–31. https://doi.org/10.1016/j.neuron.2014.09.005
-```{toggle}
-<iframe width="800" height="500" src="https://sci-hub.mksa.top/10.1016/j.neuron.2014.09.005"></iframe>
-```
-
 Calhoun, A., & Hady, A. E. (2021). What is behavior? No seriously, what is it? [Preprint]. Animal Behavior and Cognition. https://doi.org/10.1101/2021.07.04.451053
 ```{toggle}
 <iframe width="800" height="500" src="https://www.biorxiv.org/content/10.1101/2021.07.04.451053v1.full.pdf"></iframe>
@@ -138,11 +133,6 @@ Calhoun, A., & Hady, A. E. (2021). What is behavior? No seriously, what is it? [
 Levitis, D. A., Lidicker Jr, W. Z., & Freund, G. (2009). Behavioural biologists do not agree on what constitutes behaviour. Animal behaviour, 78(1), 103-110. https://doi.org/10.1016/j.anbehav.2009.03.018
 ```{toggle}
 <iframe width="800" height="500" src="https://sci-hub.mksa.top/10.1016/j.anbehav.2009.03.018"></iframe>
-```
-
-Pereira, T. D., Shaevitz, J. W., & Murthy, M. (2020). Quantifying behavior to understand the brain. Nature Neuroscience, 23(12), 1537–1549. https://doi.org/10.1038/s41593-020-00734-z
-```{toggle}
-<iframe width="800" height="500" src="https://sci-hub.mksa.top/10.1038/s41593-020-00734-z"></iframe>
 ```
 
 
