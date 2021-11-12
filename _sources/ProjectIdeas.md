@@ -35,7 +35,7 @@ The content of this book will be expanded and updated throughout the course!
 <iframe src="https://giphy.com/embed/s2qXK8wAvkHTO" width="300" frameBorder="0" class="giphy-embed" align="right"></iframe>
 :::
 
-## Group Projects
+# Group Projects
 
 **The hopeful Handlers**  
 Detecting hand movements and different grips during typing, waving and playing music instruments
