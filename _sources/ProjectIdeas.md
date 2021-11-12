@@ -46,7 +46,7 @@ Bewegungsanalyse Katze (...oder vielleicht auch etwas anderes)
 **Group C: Jil & Lea**
 Compare Tracking Performance with different labels in Pigeons
 
-**Group D: Laurin & MAurice**
+**Group D: Laurin & Maurice**
 Compare Tracking Performance with different labels in Pigeons
 
 **Group E: Petunia**
