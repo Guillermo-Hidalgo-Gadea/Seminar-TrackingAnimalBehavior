@@ -37,17 +37,17 @@ The content of this book will be expanded and updated throughout the course!
 
 ## Group Projects
 
-**Group A: Sarah & Sarah**
+**The hopeful Handlers**
 Bewegungsanalyse Katze (...oder vielleicht auch etwas anderes)
 
-**Group B: Beyza & Janna & Aline**
+**The cheeky Cheetahs**
 ?
 
-**Group C: Jil & Lea**
+**The picky Pigeons**
 Compare Tracking Performance with different labels in Pigeons
 
-**Group D: Laurin & Maurice**
+**Pigeon: same same, but different**
 Compare Tracking Performance with different labels in Pigeons
 
-**Group E: Petunia**
+**The hugging Humans**
 something with humans or something more general 

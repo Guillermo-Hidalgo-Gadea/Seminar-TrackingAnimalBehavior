@@ -24,7 +24,7 @@ Monty Hall Problem.
 ## Hands on
 1. Inspect the video file and discuss with colleagues how to edit an *ethogram* that may describe your video data best.   
 
-2. Differentiate between **point**(singular) and **state**(start and end) events and give appropriate descriptions to your behaviors. Try to define at least 10 relevant categories for specific behaviors, or use proxies such as "oriented towards camera" or "subject visible in frame".
+2. Differentiate between **point** (singular) and **state** (start and end) events and give appropriate descriptions to your behaviors. Try to define at least 10 relevant categories for specific behaviors, or use proxies such as "oriented towards camera" or "subject visible in frame".
   
 3. Start a new observation with the corresponding video data and ***ENJOY*** manual scoring!
 
