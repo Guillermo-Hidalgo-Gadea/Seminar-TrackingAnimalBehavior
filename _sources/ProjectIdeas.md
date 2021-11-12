@@ -38,16 +38,16 @@ The content of this book will be expanded and updated throughout the course!
 ## Group Projects
 
 **The hopeful Handlers**
-Bewegungsanalyse Katze (...oder vielleicht auch etwas anderes)
+Detecting hand movements and different grips during typing, waving and playing music instruments
 
 **The cheeky Cheetahs**
-?
+Kinematic analysis of running cheetahs during active attack and 'other' running 
 
 **The picky Pigeons**
-Compare Tracking Performance with different labels in Pigeons
+Compare tracking performance and accuracy of DLC models trained with different labels in Pigeons
 
 **Pigeon: same same, but different**
-Compare Tracking Performance with different labels in Pigeons
+Compare tracking performance and accuracy of DLC models trained with different labels in Pigeons
 
 **The hugging Humans**
-something with humans or something more general 
+something with humans or something more general, hugging?
