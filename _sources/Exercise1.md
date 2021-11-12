@@ -34,4 +34,4 @@ Monty Hall Problem.
 ## Documentation
 Check the BORIS documentation for more background and tips on how to get started.  
 
-<iframe src="http://www.boris.unito.it/pages/documentation.html" frameborder="0.1" width="800" height="600"></iframe>
+<iframe src="http://www.boris.unito.it/pages/video_tutorials.html" frameborder="1" width="800" height="600"></iframe>
