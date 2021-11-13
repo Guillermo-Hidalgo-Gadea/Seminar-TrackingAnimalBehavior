@@ -40,7 +40,7 @@ Machine learning is a discipline concerned with enabling machines to 'learn', in
 width: 800px
 name: dlcworkflow
 ---
-DeepLabCUt workflow from Nath et al. 2019.
+DeepLabCut workflow from Nath et al. 2019.
 ```
 
 
