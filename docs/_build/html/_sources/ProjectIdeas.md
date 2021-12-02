@@ -1,55 +1,37 @@
 # Projects
 
-This is only a preliminary collection of project ideas to get you inspired. You are encouraged to work in groups and develop your own projects. These can but don't necessarily need to be oriented on the datasets and ideas provided here.  
-
-
-:::{note}
-The content of this book will be expanded and updated throughout the course!
-:::
+This is only a preliminary collection of project ideas to get you inspired. You are encouraged to work in groups and develop your own projects. These can, but don't necessarily need to be oriented on the datasets and ideas provided here.  
 
 ## Non-human animals
-
-* **Analysis of pigeon posture**
-* **Analysis of mouse location and kinematics**
-* **Synchronicity of fly locomotion**
-
-... what else?
-
+* Analysis of pigeon posture
+* Analysis of mouse location and kinematics
+* Synchronicity of fly locomotion
 
 ## Human animals
+* Tracking emotional facial expressions
+* Tracking hand movement and guitar chords
 
-* **Tracking emotional facial expressions**
-* **Tracking hand movement and guitar chords**
+## Meta-projects
+* Compare tracking performance with different labels
+* Effects of video quality on tracking performance
 
-... what else?
 
-
-## General
-
-* **Compare tracking performance with different labels**
-* **Effects of video quality on tracking performance**
-
-... what else?
-
+# Group Projects
 :::{tip} Your final project will be featured here at the end of the course! 
 <iframe src="https://giphy.com/embed/s2qXK8wAvkHTO" width="300" frameBorder="0" class="giphy-embed" align="right"></iframe>
 :::
 
-## Group Projects
+**The hopeful Handlers**  
+Detecting hand movements and different grips during typing, waving and playing music instruments
 
-**Group A: Sarah & Sarah**
-Bewegungsanalyse Katze (..oder vielleicht auch etwas anderes.)
+**The cheeky Cheetahs**  
+Kinematic analysis of running cheetahs during active attack and 'other' running 
 
-**Group B: Miriam & Roberta** 
-(Weg-)Rennverhalten von Menschen (aus Angst gegenüber just for fun) (Augenrollen) 
+**The picky Pigeons**  
+Compare tracking performance and accuracy of DLC models trained with different labels in Pigeons
 
-**Group C: Beyza & Janna (& Aline)**
+**Pigeons: same same, but different**  
+Compare tracking performance and accuracy of DLC models trained with different labels in Pigeons
 
-**Group D: Jil, Laurin & Lea**
-Compare Tracking Performance with different labels in Pigeons
-
-**Group E: Laurin**
-I could also join whoever joins the seminar for the next session
-
-**Group F: Petunia**
-something with humans or something more general 
+**The hugging Humans**  
+something with humans or something more general, hugging?

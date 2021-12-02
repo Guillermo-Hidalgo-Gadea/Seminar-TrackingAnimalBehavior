@@ -21,6 +21,8 @@ parts:
     chapters:
     - file: Exercise1
     - file: Exercise2
+      sections:
+      - file: DLCjupyter
     - file: Exercise3
     - file: Exercise4
     - file: Exercise5
