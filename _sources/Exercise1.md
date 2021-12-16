@@ -16,7 +16,7 @@ Choose from one of the three mystery options to start a new project:
 ```{figure} content/montyhall.jpg
 ---
 width: 800px
-name: steps
+name: montyhall
 ---
 Monty Hall Problem.
 ```

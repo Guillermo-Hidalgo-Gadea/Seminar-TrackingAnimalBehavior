@@ -54,7 +54,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Kinematic analysis and unsupervised ML in python" href="Exercise4.html" />
-    <link rel="prev" title="Guided DeepLabCut demo" href="Exercise2.html" />
+    <link rel="prev" title="Guided DeepLabCut Tutorial" href="DLCjupyter.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -158,10 +158,22 @@
    Getting started with BORIS
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="Exercise2.html">
    Guided DeepLabCut demo
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="DLCjupyter.html">
+     Guided DeepLabCut Tutorial
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
@@ -302,8 +314,8 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#steps-to-follow">
-   Steps to follow
+  <a class="reference internal nav-link" href="#how-does-it-work">
+   How does it work
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -324,18 +336,43 @@
                 
   <section class="tex2jax_ignore mathjax_ignore" id="deeplabcut-tutorials">
 <h1>DeepLabCut Tutorials<a class="headerlink" href="#deeplabcut-tutorials" title="Permalink to this headline">¶</a></h1>
+<section id="how-to-get-started">
+<h2>How to get started<a class="headerlink" href="#how-to-get-started" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>Installation of Anaconda and DeepLabCut environment</p></li>
+<li><p>Start DeepLabCut either through the GUI or Jupyter Notebook</p></li>
+<li><p>Take a minute to describe your dataset and research ideas</p></li>
+<li><p>Manage your behavioral video data, e.g., split into trials</p></li>
+<li><p>Create a new Project and load your behavioral video data</p></li>
+<li><p>Define labeling markers and skeleton on your config.yaml file</p></li>
+<li><p>Extract, label and check frames, before creating a training dataset</p></li>
+<li><p>Train your model using a GPU</p></li>
+<li><p>Analyze your data and create labeled videos</p></li>
+</ol>
+</section>
+<section id="how-does-it-work">
+<h2>How does it work<a class="headerlink" href="#how-does-it-work" title="Permalink to this headline">¶</a></h2>
+<figure class="align-default" id="dlc-workflow">
+<a class="reference internal image-reference" href="_images/dlcworkflow.png"><img alt="_images/dlcworkflow.png" src="_images/dlcworkflow.png" style="width: 800px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 12 </span><span class="caption-text">DeepLabCut workflow from Nath et al. 2019.</span><a class="headerlink" href="#dlc-workflow" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="troubleshooting">
+<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The content of this book will be expanded and updated throughout the course!</p>
 </div>
-<section id="how-to-get-started">
-<h2>How to get started<a class="headerlink" href="#how-to-get-started" title="Permalink to this headline">¶</a></h2>
-</section>
-<section id="steps-to-follow">
-<h2>Steps to follow<a class="headerlink" href="#steps-to-follow" title="Permalink to this headline">¶</a></h2>
-</section>
-<section id="troubleshooting">
-<h2>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h2>
+<div class="question dropdown admonition">
+<p class="admonition-title">How do I get help?</p>
+<p>Check out the known issues reported on <a class="reference external" href="https://github.com/DeepLabCut/DeepLabCut/issues">GitHub</a> using keywords from your error messages. Go through the tips and tricks sections in the <a class="reference external" href="https://deeplabcut.github.io/DeepLabCut/docs/intro.html">Documentation</a> to find errors in your code.</p>
+</div>
+<div class="question dropdown admonition">
+<p class="admonition-title">Example Question?</p>
+<p>Custom Answer. Student assignment for day 4.</p>
+</div>
 </section>
 </section>
 
@@ -369,11 +406,11 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="Exercise2.html" title="previous page">
+        <a class="left-prev" href="DLCjupyter.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Guided DeepLabCut demo</p>
+                <p class="prevnext-title">Guided DeepLabCut Tutorial</p>
             </div>
         </a>
     </div>
