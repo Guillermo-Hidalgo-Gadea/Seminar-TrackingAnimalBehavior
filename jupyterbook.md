@@ -6,5 +6,5 @@
 ### Build Book
 ```jupyter-book build docs```
 
-### Pubish Book
+### Publish Book
 ``` ghp-import -n -p -f docs/_build/html```

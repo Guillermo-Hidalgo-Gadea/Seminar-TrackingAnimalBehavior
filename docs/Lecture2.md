@@ -1,10 +1,5 @@
 # How can we measure animal behavior? 
 
-:::{note}
-The content of this book will be expanded and updated throughout the course!
-:::
-
-
 ## Measuring Behavior
 The study of behavior started with rich, naturalistic observations of animals in their natural environments. But these observations were mostly qualitative and anecdotal descriptions, rather than quantitative measurements of behavior (see [George Romanes' *Animal Intelligence*](https://dl.tufts.edu/concern/pdfs/47429n35w) and [Desmond Morris' *The Naked Ape*](https://en.wikipedia.org/wiki/The_Naked_Ape) for such examples).  
 
