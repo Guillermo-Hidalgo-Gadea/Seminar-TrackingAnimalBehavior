@@ -17,14 +17,7 @@ You can then create a designated environment and install DeepLabCut:
     - ```conda activate DEEPLABCUT```
     - ```pip install --upgrade deeplabcut```
 
-## Starting DeepLabCut
-**Using Jupyter**
-1. Open Anaconda Prompt
-2. conda activate DEEPLABCUT (environment)
-3. jupyter notebook / jupyter lab / ipython
-4. import deeplabcut ...
-
-**Using the GUI**
+## Starting the DeepLabCut GUI
 1. Open Anaconda Prompt
 2. conda activate DEEPLABCUT (environment)
 3. python -m deeplabcut

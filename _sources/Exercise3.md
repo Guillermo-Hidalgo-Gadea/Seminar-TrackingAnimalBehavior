@@ -1,4 +1,4 @@
-# DeepLabCut Tutorials
+# DeepLabCut Notebook Demo
 
 
 ## How to get started
@@ -11,6 +11,19 @@
 7. Extract, label and check frames, before creating a training dataset
 8. Train your model using a GPU 
 9. Analyze your data and create labeled videos
+
+## Starting DeepLabCut with Jupyter
+1. Open Anaconda Prompt
+2. conda activate DEEPLABCUT (environment)
+3. jupyter notebook / jupyter lab / ipython
+4. import deeplabcut ...
+
+## Downloading Jupyter Notebooks
+On the next page you will find a [Guided DeepLabCut Tutorial](https://guillermo-hidalgo-gadea.github.io/Seminar-TrackingAnimalBehavior/DLCjupyter.html), a jupyter notebook I prepared containing the most important steps needed to start your own project.
+1. Download the notebook as .ipynb file
+2. Rename the file and move it to your working directory
+3. Open the notebook with jupyter lab or notebook
+4. Start taking notes and make the notebook yours 
 
 ## How does it work
 ```{figure} content/dlcworkflow.png

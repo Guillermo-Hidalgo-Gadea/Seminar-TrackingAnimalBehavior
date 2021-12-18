@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>DeepLabCut Tutorials &#8212; Tracking Animal Behavior</title>
+    <title>DeepLabCut Notebook Demo &#8212; Tracking Animal Behavior</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -53,8 +53,8 @@
     <link rel="shortcut icon" href="_static/icon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Kinematic analysis and unsupervised ML in python" href="Exercise4.html" />
-    <link rel="prev" title="Guided DeepLabCut Tutorial" href="DLCjupyter.html" />
+    <link rel="next" title="Guided DeepLabCut Tutorial" href="DLCjupyter.html" />
+    <link rel="prev" title="Guided DeepLabCut demo" href="Exercise2.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -158,11 +158,16 @@
    Getting started with BORIS
   </a>
  </li>
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1">
   <a class="reference internal" href="Exercise2.html">
    Guided DeepLabCut demo
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="current reference internal" href="#">
+   DeepLabCut Notebook Demo
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
@@ -174,11 +179,6 @@
     </a>
    </li>
   </ul>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   DeepLabCut Tutorials
-  </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="Exercise4.html">
@@ -314,6 +314,16 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#starting-deeplabcut-with-jupyter">
+   Starting DeepLabCut with Jupyter
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#downloading-jupyter-notebooks">
+   Downloading Jupyter Notebooks
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#how-does-it-work">
    How does it work
   </a>
@@ -334,8 +344,8 @@
         
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="deeplabcut-tutorials">
-<h1>DeepLabCut Tutorials<a class="headerlink" href="#deeplabcut-tutorials" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="deeplabcut-notebook-demo">
+<h1>DeepLabCut Notebook Demo<a class="headerlink" href="#deeplabcut-notebook-demo" title="Permalink to this headline">¶</a></h1>
 <section id="how-to-get-started">
 <h2>How to get started<a class="headerlink" href="#how-to-get-started" title="Permalink to this headline">¶</a></h2>
 <ol class="simple">
@@ -348,6 +358,25 @@
 <li><p>Extract, label and check frames, before creating a training dataset</p></li>
 <li><p>Train your model using a GPU</p></li>
 <li><p>Analyze your data and create labeled videos</p></li>
+</ol>
+</section>
+<section id="starting-deeplabcut-with-jupyter">
+<h2>Starting DeepLabCut with Jupyter<a class="headerlink" href="#starting-deeplabcut-with-jupyter" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>Open Anaconda Prompt</p></li>
+<li><p>conda activate DEEPLABCUT (environment)</p></li>
+<li><p>jupyter notebook / jupyter lab / ipython</p></li>
+<li><p>import deeplabcut …</p></li>
+</ol>
+</section>
+<section id="downloading-jupyter-notebooks">
+<h2>Downloading Jupyter Notebooks<a class="headerlink" href="#downloading-jupyter-notebooks" title="Permalink to this headline">¶</a></h2>
+<p>On the next page you will find a <a class="reference external" href="https://guillermo-hidalgo-gadea.github.io/Seminar-TrackingAnimalBehavior/DLCjupyter.html">Guided DeepLabCut Tutorial</a>, a jupyter notebook I prepared containing the most important steps needed to start your own project.</p>
+<ol class="simple">
+<li><p>Download the notebook as .ipynb file</p></li>
+<li><p>Rename the file and move it to your working directory</p></li>
+<li><p>Open the notebook with jupyter lab or notebook</p></li>
+<li><p>Start taking notes and make the notebook yours</p></li>
 </ol>
 </section>
 <section id="how-does-it-work">
@@ -374,6 +403,8 @@
 <p>Custom Answer. Student assignment for day 4.</p>
 </div>
 </section>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -406,19 +437,19 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="DLCjupyter.html" title="previous page">
+        <a class="left-prev" href="Exercise2.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Guided DeepLabCut Tutorial</p>
+                <p class="prevnext-title">Guided DeepLabCut demo</p>
             </div>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="Exercise4.html" title="next page">
+        <a class="right-next" href="DLCjupyter.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Kinematic analysis and unsupervised ML in python</p>
+                <p class="prevnext-title">Guided DeepLabCut Tutorial</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
