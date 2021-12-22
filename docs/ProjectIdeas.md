@@ -1,4 +1,4 @@
-# Projects
+# Project Ideas
 
 This is only a preliminary collection of project ideas to get you inspired. You are encouraged to work in groups and develop your own projects. These can, but don't necessarily need to be oriented on the datasets and ideas provided here.  
 
@@ -35,3 +35,6 @@ Compare tracking performance and accuracy of DLC models trained with different l
 
 **The hugging Humans**  
 something with humans or something more general, hugging?
+
+**Raterality**
+Laterality in rats during a collins test

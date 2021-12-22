@@ -1,4 +1,4 @@
-# DeepLabCut Tutorials
+# DeepLabCut Notebook Demo
 
 
 ## How to get started
@@ -12,6 +12,19 @@
 8. Train your model using a GPU 
 9. Analyze your data and create labeled videos
 
+## Starting DeepLabCut with Jupyter
+1. Open Anaconda Prompt
+2. conda activate DEEPLABCUT (environment)
+3. jupyter notebook / jupyter lab / ipython
+4. import deeplabcut ...
+
+## Downloading Jupyter Notebooks
+On the next page you will find a [Guided DeepLabCut Tutorial](https://guillermo-hidalgo-gadea.github.io/Seminar-TrackingAnimalBehavior/DLCjupyter.html), a jupyter notebook I prepared containing the most important steps needed to start your own project.
+1. Download the notebook as .ipynb file
+2. Rename the file and move it to your working directory
+3. Open the notebook with jupyter lab or notebook
+4. Start taking notes and make the notebook yours 
+
 ## How does it work
 ```{figure} content/dlcworkflow.png
 ---
@@ -23,13 +36,15 @@ DeepLabCut workflow from Nath et al. 2019.
 
 ## Troubleshooting
 
-:::{note}
-The content of this book will be expanded and updated throughout the course!
-:::
+```{admonition} Student contribution
+:class: tip
+The following tips and tricks were put together with the help of students during real troubleshooting in course exercises. Thank you for your contribution! 
+```
 
 :::{admonition} How do I get help?
 :class: question, dropdown
-Check out the known issues reported on [GitHub](https://github.com/DeepLabCut/DeepLabCut/issues) using keywords from your error messages. Go through the tips and tricks sections in the [Documentation](https://deeplabcut.github.io/DeepLabCut/docs/intro.html) to find errors in your code.
+1. Check out the known issues reported on [GitHub](https://github.com/DeepLabCut/DeepLabCut/issues) using keywords from your error messages. 2. Read the [GitHub Documentation](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) for best practices on how to open new issues.
+3. Go through the tips and tricks sections in the [Documentation](https://deeplabcut.github.io/DeepLabCut/docs/intro.html) to find any errors in your procedure or code.
 :::
 
 :::{admonition} Example Question?

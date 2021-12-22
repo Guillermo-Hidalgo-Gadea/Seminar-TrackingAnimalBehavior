@@ -21,9 +21,9 @@ parts:
     chapters:
     - file: Exercise1
     - file: Exercise2
-      sections:
-      - file: DLCjupyter
     - file: Exercise3
+      sections:
+        - file: DLCjupyter
     - file: Exercise4
     - file: Exercise5
   - caption: Datasets and Projects
