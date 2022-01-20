@@ -131,6 +131,17 @@ having more than 106 frames
 * appropriate number id
 use multiple videos better than less videos 
 
+1. What should we do if many of the joints we want to mark are covered
+or cut off?
+  -> use more points to still have an idea of how the individuals move
+2. What has to be kept in mind when we use many different angles and
+multiple people are involved in labeling?
+  -> Be very clear on how you "define" e.g., the top of the head -
+otherwise this point will move a lot and cause problems later on
+3. If you have multiple animals -> make sure that the names are
+different enough so you don't confuse them half way through the labeling
+prowess
+
 * marker definition
 use group to discuss marker positions 
 
