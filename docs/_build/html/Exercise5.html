@@ -141,11 +141,6 @@
    Recent advances in computational ethology
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Lecture5.html">
-   Introduction to time series analysis
-  </a>
- </li>
 </ul>
 <p class="caption" role="heading">
  <span class="caption-text">
@@ -158,14 +153,9 @@
    Getting started with BORIS
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Exercise2.html">
-   Guided DeepLabCut demo
-  </a>
- </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="Exercise3.html">
-   DeepLabCut Notebook Demo
+  <a class="reference internal" href="Exercise2.html">
+   Getting started with DeepLabCut
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -174,8 +164,13 @@
   </label>
   <ul>
    <li class="toctree-l2">
+    <a class="reference internal" href="Exercise3.html">
+     DeepLabCut Tutorial
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="DLCjupyter.html">
-     Guided DeepLabCut Tutorial
+     DeepLabCut Notebook
     </a>
    </li>
   </ul>
@@ -204,7 +199,7 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="ProjectIdeas.html">
-   Projects
+   Project Ideas
   </a>
  </li>
 </ul>
@@ -303,6 +298,41 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-data-a-dramatic-introduction">
+   What is Data? A dramatic introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-analysis-with-python">
+   Data Analysis with Python
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-does-data-look-like-notebook-1">
+     [What does data look like](Notebook 1)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#kinematic-analysis-notebook-2">
+     [Kinematic analysis](Notebook 2)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#machine-learning-notebook-3">
+     [Machine learning](Notebook 3)
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -313,10 +343,35 @@
                 
   <section class="tex2jax_ignore mathjax_ignore" id="data-analysis-tutorial">
 <h1>Data Analysis Tutorial<a class="headerlink" href="#data-analysis-tutorial" title="Permalink to this headline">¶</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The content of this book will be expanded and updated throughout the course!</p>
-</div>
+<section id="what-is-data-a-dramatic-introduction">
+<h2>What is Data? A dramatic introduction<a class="headerlink" href="#what-is-data-a-dramatic-introduction" title="Permalink to this headline">¶</a></h2>
+<iframe width="875" height="492" src="https://www.youtube.com/embed/2X9pv7FUrOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Want to learn some data science? Because you should… Math and Statistics are only half of the story. Coding and data management are at least as important, and will probably be an easier start. Get some data, plan a project and start learning by doing. I can only encourage you to learn Python and/or R, maybe even julia.</p>
+<iframe width="875" height="492" src="https://www.youtube.com/embed/xpIFS6jZbe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<section id="data-analysis-with-python">
+<h2>Data Analysis with Python<a class="headerlink" href="#data-analysis-with-python" title="Permalink to this headline">¶</a></h2>
+<p>This is going to be a very short crash course only. The main goal is to get you started with python and make some sense of your DeepLabCut analysis. You are encouraged to keep playing with the data and the notebooks provided above and beyond the scope of this seminar. If you are interested in a deeper understanding of the matter feel free to <a class="reference internal" href="contactform.html"><span class="doc std std-doc">get in touch</span></a>.</p>
+<p>Before you start applying some of the following tips and tricks to your own data, we will learn a little about how to manage data, read data in python, check the data structure and explore some descriptive statistics and plots. Next, we will see basic functions to analyze kinematic features in DeepLabCut time series data, and last but not least, we will take a look at some beginner friendly machine learning algorithms to classify and predict data.</p>
+<section id="what-does-data-look-like-notebook-1">
+<h3>[What does data look like](Notebook 1)<a class="headerlink" href="#what-does-data-look-like-notebook-1" title="Permalink to this headline">¶</a></h3>
+<p>data management
+How to load data to python
+how to check data structure
+descriptives
+plots</p>
+</section>
+<section id="kinematic-analysis-notebook-2">
+<h3>[Kinematic analysis](Notebook 2)<a class="headerlink" href="#kinematic-analysis-notebook-2" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="machine-learning-notebook-3">
+<h3>[Machine learning](Notebook 3)<a class="headerlink" href="#machine-learning-notebook-3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>supervised (linear regression? svm?)</p></li>
+<li><p>unsupervised (hmm, kmeans, gmm, umap)</p></li>
+</ul>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">

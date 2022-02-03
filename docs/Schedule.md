@@ -7,7 +7,7 @@
 |Block 1, day 2 </br> Sat 13.11.21 </br> 10am-4pm| IA 1/153 </br> PC-Pool  | Intro DeepLabCut and project proposals | Lecture, Discussion, Group improv, Hands on  |
 |Block 2, day 3 </br> Fri 17.12.21 </br> 10am-4pm| IA 1/153 </br> PC-Pool  | Intro Computational Ethology and individual DeepLabCut projects | Lecture, Discussion, Group improv, Hands on|
 |Block 2, day 4 </br> Sat 18.12.21 </br> 10am-4pm| IA 1/153 </br> PC-Pool  | Individual DeepLabCut projects, continued | Discussion, Hands on |
-|Block 3, day 5 </br> Fri 4.2.22 </br> 10am-4pm| IA 1/153 </br> PC-Pool  | DeepLabCut results, time series analysis, and machine learning | Lecture, Discussion, Group improv, Hands on  |
+|Block 3, day 5 </br> Fri 4.2.22 </br> 10am-4pm| IA 1/153 </br> PC-Pool  | DeepLabCut results, data analysis, and machine learning | Lecture, Discussion, Group improv, Hands on  |
 |Block 3, day 6 </br> Sat 5.2.22 </br> 10am-4pm| IA 1/153 </br> PC-Pool  | Data analysis, final discussion, and project results | Discussion, Group improv, Hands on |
 
 ## Timetable

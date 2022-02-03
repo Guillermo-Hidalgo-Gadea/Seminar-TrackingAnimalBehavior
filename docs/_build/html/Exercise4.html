@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Kinematic analysis and unsupervised ML in python &#8212; Tracking Animal Behavior</title>
+    <title>Data Analysis Tutorial &#8212; Tracking Animal Behavior</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -53,8 +53,8 @@
     <link rel="shortcut icon" href="_static/icon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Data Analysis Tutorial" href="Exercise5.html" />
-    <link rel="prev" title="Guided DeepLabCut Tutorial" href="DLCjupyter.html" />
+    <link rel="next" title="What does data look like" href="datainspection.html" />
+    <link rel="prev" title="DeepLabCut Notebook" href="DLCjupyter.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -141,11 +141,6 @@
    Recent advances in computational ethology
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Lecture5.html">
-   Introduction to time series analysis
-  </a>
- </li>
 </ul>
 <p class="caption" role="heading">
  <span class="caption-text">
@@ -158,14 +153,9 @@
    Getting started with BORIS
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Exercise2.html">
-   Guided DeepLabCut demo
-  </a>
- </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="Exercise3.html">
-   DeepLabCut Notebook Demo
+  <a class="reference internal" href="Exercise2.html">
+   Getting started with DeepLabCut
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -174,21 +164,43 @@
   </label>
   <ul>
    <li class="toctree-l2">
+    <a class="reference internal" href="Exercise3.html">
+     DeepLabCut Tutorial
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="DLCjupyter.html">
-     Guided DeepLabCut Tutorial
+     DeepLabCut Notebook
     </a>
    </li>
   </ul>
  </li>
- <li class="toctree-l1 current active">
+ <li class="toctree-l1 current active has-children">
   <a class="current reference internal" href="#">
-   Kinematic analysis and unsupervised ML in python
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Exercise5.html">
    Data Analysis Tutorial
   </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="datainspection.html">
+     What does data look like
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="kinematicanalysis.html">
+     Kinematic analysis
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="machinelearning.html">
+     Machine Learning
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 <p class="caption" role="heading">
@@ -204,7 +216,7 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="ProjectIdeas.html">
-   Projects
+   Project Ideas
   </a>
  </li>
 </ul>
@@ -303,6 +315,54 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-data-a-dramatic-introduction">
+   What is Data? A dramatic introduction
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#getting-started">
+     Getting started
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-analysis-with-python">
+   Data Analysis with Python
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-does-data-look-like">
+     <span class="xref myst">
+      What does data look like
+     </span>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#kinematic-analysis">
+     <span class="xref myst">
+      Kinematic analysis
+     </span>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#machine-learning">
+     <span class="xref myst">
+      Machine learning
+     </span>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -311,11 +371,50 @@
         
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="kinematic-analysis-and-unsupervised-ml-in-python">
-<h1>Kinematic analysis and unsupervised ML in python<a class="headerlink" href="#kinematic-analysis-and-unsupervised-ml-in-python" title="Permalink to this headline">¶</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The content of this book will be expanded and updated throughout the course!</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="data-analysis-tutorial">
+<h1>Data Analysis Tutorial<a class="headerlink" href="#data-analysis-tutorial" title="Permalink to this headline">¶</a></h1>
+<section id="what-is-data-a-dramatic-introduction">
+<h2>What is Data? A dramatic introduction<a class="headerlink" href="#what-is-data-a-dramatic-introduction" title="Permalink to this headline">¶</a></h2>
+<iframe width="875" height="492" src="https://www.youtube.com/embed/2X9pv7FUrOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section id="getting-started">
+<h3>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h3>
+<p>Want to learn some data science? Because you should… Math and Statistics are only half of the story. Coding and data management are at least as important, and will probably be an easier start. Get some data, plan a project and start learning by doing. I can only encourage you to learn Python and/or R, maybe even julia.</p>
+<iframe width="875" height="492" src="https://www.youtube.com/embed/xpIFS6jZbe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+</section>
+<section id="data-analysis-with-python">
+<h2>Data Analysis with Python<a class="headerlink" href="#data-analysis-with-python" title="Permalink to this headline">¶</a></h2>
+<p>This is going to be a very short crash course only. The main goal is to get you started with python and make some sense of your DeepLabCut analysis. You are encouraged to keep playing with the data and the notebooks provided above and beyond the scope of this seminar. If you are interested in a deeper understanding of the matter feel free to <a class="reference internal" href="contactform.html"><span class="doc std std-doc">get in touch</span></a>.</p>
+<p>Before you start applying some of the following tips and tricks to your own data, we will learn a little about how to manage data, read data in python, check the data structure and explore some descriptive statistics and plots. Next, we will see basic functions to analyze kinematic features in DeepLabCut time series data, and last but not least, we will take a look at some beginner friendly machine learning algorithms to classify and predict data.</p>
+<p>Dummy data for the following exercises is provided <a class="reference external" href="https://ruhr-uni-bochum.sciebo.de/s/Svwxncw01Ir9uxw">here</a>. Please download the notebooks as .ipynb file and follow along on your computer.</p>
+<section id="what-does-data-look-like">
+<h3><a class="reference internal" href="datainspection.html"><span class="doc std std-doc">What does data look like</span></a><a class="headerlink" href="#what-does-data-look-like" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Data management tips</p></li>
+<li><p>How to read data</p></li>
+<li><p>How is my data structured</p></li>
+<li><p>What does my data tell me</p></li>
+<li><p>How could my data look like</p></li>
+</ul>
+</section>
+<section id="kinematic-analysis">
+<h3><a class="reference internal" href="kinematicanalysis.html"><span class="doc std std-doc">Kinematic analysis</span></a><a class="headerlink" href="#kinematic-analysis" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Position in space</p></li>
+<li><p>Velocity as difference between positions in dt</p></li>
+<li><p>Acceleration as difference in velocity in dt</p></li>
+</ul>
+</section>
+<section id="machine-learning">
+<h3><a class="reference internal" href="machinelearning.html"><span class="doc std std-doc">Machine learning</span></a><a class="headerlink" href="#machine-learning" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Time segmentation with Hidden Markov Models</p></li>
+<li><p>Time segmentation with Gaussian Mixture Models</p></li>
+<li><p>UMAP dimensionality reduction</p></li>
+</ul>
+</section>
+</section>
+<div class="toctree-wrapper compound">
 </div>
 </section>
 
@@ -353,15 +452,15 @@
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Guided DeepLabCut Tutorial</p>
+                <p class="prevnext-title">DeepLabCut Notebook</p>
             </div>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="Exercise5.html" title="next page">
+        <a class="right-next" href="datainspection.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Data Analysis Tutorial</p>
+                <p class="prevnext-title">What does data look like</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>

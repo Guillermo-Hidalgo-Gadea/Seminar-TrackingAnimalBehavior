@@ -1,4 +1,4 @@
-# Guided DeepLabCut demo
+# Getting started with DeepLabCut
 
 DeepLabCut is a toolbox for markerless pose estimation of animals performing various tasks.
 
@@ -23,7 +23,7 @@ You can then create a designated environment and install DeepLabCut:
 3. python -m deeplabcut
 
 ## Downloading Jupyter Notebooks
-On the next page you will find a [Guided DeepLabCut Tutorial](https://guillermo-hidalgo-gadea.github.io/Seminar-TrackingAnimalBehavior/DLCjupyter.html), a jupyter notebook I prepared containing the most important steps needed to start your own project.
+On the next page you will find a [DeepLabCut Notebook](DLCjupyter.md), a jupyter notebook I prepared containing the most important steps needed to start your own project.
 1. Download the notebook as .ipynb file
 2. Rename the file and move it to your working directory
 3. Open the notebook with jupyter lab or notebook

@@ -64,7 +64,7 @@ Individual appointments (if necessary)
 **Block 3, day 5**
 -	Discussion: Recap DeepLabCut troubleshooting
 -	Group improv: DeepLabCut results
--	Lecture: Introduction to time series analysis 
+-	Lecture: Introduction to data analysis 
 -	Hands on: Kinematic analysis and unsupervised ML in python (scripts provided)
 
 **Block 3, day 6**

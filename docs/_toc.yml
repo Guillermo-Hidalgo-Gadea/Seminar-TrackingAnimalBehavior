@@ -16,16 +16,18 @@ parts:
     - file: Lecture2
     - file: Lecture3
     - file: Lecture4
-    - file: Lecture5
   - caption: Exercises
     chapters:
     - file: Exercise1
     - file: Exercise2
-    - file: Exercise3
       sections:
+        - file: Exercise3
         - file: DLCjupyter
     - file: Exercise4
-    - file: Exercise5
+      sections:
+        - file: datainspection
+        - file: kinematicanalysis
+        - file: machinelearning
   - caption: Datasets and Projects
     chapters:
     - file: DataSets
