@@ -131,7 +131,7 @@ As a general rule, use more keypoints than you think you may need, this will hel
 
 :::{admonition} More is always better, but increase variability
 :class: question, dropdown
-The decision of how many frames to extract is closely linked to the number of videos you are working with. Although frame extraction methods such as ```kmeans```try to diversify the frames extracted from the video, it will be generally better to extract only 10 frames from 10 different videos than 100 frames of a single video. This only applies when trying to train a model that generalizes well. In specific circumnstances you may prefer to overfit the model to your specific data.
+The decision of how many frames to extract is closely linked to the number of videos you are working with. Although frame extraction methods such as ```kmeans``` try to diversify the frames extracted from the video, it will be generally better to extract only 10 frames from 10 different videos than 100 frames of a single video. This only applies when trying to train a model that generalizes well. In specific circumnstances you may prefer to overfit the model to your specific data.
 :::
 
 :::{admonition} Labeling from multiple views
