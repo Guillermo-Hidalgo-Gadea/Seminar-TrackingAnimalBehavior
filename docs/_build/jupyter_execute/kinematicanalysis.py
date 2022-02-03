@@ -47,6 +47,30 @@ plt.legend()
 position_x.hist()
 
 
+# In[ ]:
+
+
+x = coords['nose1_x']
+y = coords['nose1_y']
+z = coords['nose1_z']
+
+# creating 3d figures
+fig = plt.figure(figsize=(10, 10));
+ax = fig.add_subplot(projection='3d')
+
+# creating the path map
+img = ax.scatter(x, y, z, marker='o', s = 60, color='gray')
+
+# adding title and labels
+ax.set_title("3D Path")
+ax.set_xlabel('X-axis')
+ax.set_ylabel('Y-axis')
+ax.set_zlabel('Z-axis')
+
+# displaying plot
+plt.show()
+
+
 # ## Velocity as difference between positions
 
 # In[ ]:

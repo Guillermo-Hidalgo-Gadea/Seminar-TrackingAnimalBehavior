@@ -34,5 +34,6 @@ Dummy data for the following exercises is provided [here](https://ruhr-uni-bochu
 ### [Machine learning](machinelearning.ipynb)
 
 * Time segmentation with Hidden Markov Models
-* Time segmentation with Gaussian Mixture Models
+* Gaussian Mixture Models
+* Decision Trees
 * UMAP dimensionality reduction

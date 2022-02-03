@@ -4,9 +4,11 @@
 # # Machine Learning
 
 # ## What libraries should I import?
+# 
 # ```pip install hmmlearn```
 # 
 # ```pip install umap-learn```
+# 
 
 # In[ ]:
 
@@ -14,6 +16,8 @@
 from hmmlearn import hmm
 import umap
 from sklearn.mixture import GaussianMixture
+from sklearn import tree
+from sklearn.tree import DecisionTreeClassifier
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -110,7 +114,7 @@ means1
 plot_prediction(coords, hmm_pred)
 
 
-# ## Time segmentation with Gaussian Mixture Model
+# ## Gaussian Mixture Model
 
 # In[ ]:
 
@@ -122,6 +126,30 @@ gmm_pred = GaussianMixture(n_components=9, covariance_type='full').fit_predict(c
 
 
 plot_prediction(coords, gmm_pred)
+
+
+# ## Decision Trees
+
+# In[ ]:
+
+
+dtree = DecisionTreeClassifier()
+dtree = dtree.fit(coords, hmm_pred)
+
+
+# In[ ]:
+
+
+plt.figure(figsize=(30, 20))
+tree.plot_tree(dtree, feature_names = coords.columns, fontsize=12)
+plt.show()
+
+
+# In[ ]:
+
+
+n = 100
+print(f'Prediction from decision tree for frame {n}: {dtree.predict(coords[n:n+1])}')
 
 
 # ## UMAP dimensionality reduction
@@ -149,4 +177,10 @@ with plt.xkcd():
     plt.colorbar(ticks=range(4))
     plt.clim(0, 5)
     plt.show()
+
+
+# In[ ]:
+
+
+
 
