@@ -40,4 +40,4 @@ Compare tracking performance and accuracy of DLC models trained with different l
 something with humans or something more general, hugging?
 
 **Restless Raterality**  
-Laterality in rats during a collins test
+Laterality in rats during a head turning test
