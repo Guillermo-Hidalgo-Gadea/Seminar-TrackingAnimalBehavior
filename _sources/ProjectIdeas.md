@@ -30,13 +30,13 @@ Detecting hand movements and different grips during typing, waving and playing m
 **The cheeky Cheetahs**  
 Kinematic analysis of running cheetahs during active attack and 'other' running 
 
-**The picky Pigeons**  
+**[The picky Pigeons](PickyPigeons.md)**  
 Compare tracking performance and accuracy of DLC models trained with different labels in Pigeons
 
-**Pigeons: same same, but different**  
+**[Pigeons: same same, but different](PickyPigeons.md)**  
 Compare tracking performance and accuracy of DLC models trained with different labels in Pigeons
 
-**The hugging Humans**  
+**[The hugging Humans](HuggingHumans.md)**  
 something with humans or something more general, hugging?
 
 **[Restless Raterality](RestlessRaterality.md)**  
