@@ -214,10 +214,42 @@
    Datasets
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="ProjectIdeas.html">
-   Project Ideas
+   Projects
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="HelpfulHandlers.html">
+     Helpful Handlers
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="CheekyCheetahs.html">
+     The Cheeky Cheetahs
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="PickyPigeons.html">
+     The Picky Pigeons
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="HuggingHumans.html">
+     Hugging Humans
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="RestlessRaterality.html">
+     Restless Raterality
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 <p class="caption" role="heading">
@@ -395,7 +427,7 @@
 <p>Dummy data for the following exercises is provided <a class="reference external" href="https://ruhr-uni-bochum.sciebo.de/s/Svwxncw01Ir9uxw">here</a>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">file</span> <span class="o">=</span> <span class="s1">&#39;path/filename.csv&#39;</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">file</span> <span class="o">=</span> <span class="s1">&#39;/Users/Downloads/pose-3d.csv&#39;</span>
 <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">coords</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span><span class="o">~</span><span class="n">data</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s1">&#39;score|error|ncams|fnum|center|M_&#39;</span><span class="p">)]</span>
 </pre></div>
@@ -420,12 +452,24 @@
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7fb86e47f400&gt;
+</pre></div>
+</div>
+<img alt="_images/kinematicanalysis_6_1.png" src="_images/kinematicanalysis_6_1.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">position_x</span><span class="o">.</span><span class="n">hist</span><span class="p">()</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;AxesSubplot:&gt;
+</pre></div>
+</div>
+<img alt="_images/kinematicanalysis_7_1.png" src="_images/kinematicanalysis_7_1.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -452,6 +496,9 @@
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<img alt="_images/kinematicanalysis_8_0.png" src="_images/kinematicanalysis_8_0.png" />
+</div>
 </div>
 </section>
 <section id="velocity-as-difference-between-positions">
@@ -471,12 +518,21 @@
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7fb86f7cb370&gt;
+</pre></div>
+</div>
+<img alt="_images/kinematicanalysis_10_1.png" src="_images/kinematicanalysis_10_1.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">_</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">velocity_x</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/kinematicanalysis_11_0.png" src="_images/kinematicanalysis_11_0.png" />
 </div>
 </div>
 </section>
@@ -498,12 +554,21 @@
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7fb870129f70&gt;
+</pre></div>
+</div>
+<img alt="_images/kinematicanalysis_13_1.png" src="_images/kinematicanalysis_13_1.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">_</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">acceleration_x</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/kinematicanalysis_14_0.png" src="_images/kinematicanalysis_14_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -519,6 +584,12 @@
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7fb87048d970&gt;
+</pre></div>
+</div>
+<img alt="_images/kinematicanalysis_15_1.png" src="_images/kinematicanalysis_15_1.png" />
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -532,6 +603,12 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Multiple Violin Plots with Matplotlib&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0.5, 1.0, &#39;Multiple Violin Plots with Matplotlib&#39;)
+</pre></div>
+</div>
+<img alt="_images/kinematicanalysis_16_1.png" src="_images/kinematicanalysis_16_1.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -551,6 +628,12 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Multiple Violin Plots with Matplotlib&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0.5, 1.0, &#39;Multiple Violin Plots with Matplotlib&#39;)
+</pre></div>
+</div>
+<img alt="_images/kinematicanalysis_17_1.png" src="_images/kinematicanalysis_17_1.png" />
 </div>
 </div>
 <p>In the following section we will learn to cluster our data using some very basic machine learning techniques.</p>
