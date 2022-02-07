@@ -20,13 +20,12 @@ For your final group projects, try to get inspired by the datasets provided, but
 
 ## Group Projects
 
-```{margin}
-<iframe src="https://giphy.com/embed/s2qXK8wAvkHTO" width="300" frameBorder="0" class="giphy-embed"></iframe>
-```
-
+````{margin}
 ```{tip}
 Your final project will be featured here at the end of the course!
+<iframe src="https://giphy.com/embed/s2qXK8wAvkHTO" width="300" frameBorder="0" class="giphy-embed"></iframe>
 ```
+````
 
 **[The helpful Handlers](HelpfulHandlers.md)**  
 Detecting hand movements and different grips during typing, waving and playing music instruments    
