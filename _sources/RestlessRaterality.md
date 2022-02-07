@@ -1,8 +1,10 @@
 # Restless Raterality
 
 This section of the course handbook has been provided as part of the final group project for the Seminar on Tracking Animal Behavior at the Ruhr-University Bochum in WS21/22.
-<div style="text-align: right"> Patrick, PhD student</div>
-<div style="text-align: right"> Sevim, PhD student</div>
+
+```{admonition} Project Authors
+Patrick, `PhD student`, and Sevim, `PhD student`.
+```
 
 ## Abstract
 
@@ -29,7 +31,6 @@ name: rateralityfig2
 ---
 Movement towards the bottle on x-Levels
 ```
-
 
 ```{figure} content/Rateralityfig3.png
 ---

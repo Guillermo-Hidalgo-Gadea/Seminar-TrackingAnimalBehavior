@@ -1,8 +1,10 @@
 # The Cheeky Cheetahs
 
 This section of the course handbook has been provided as part of the final group project for the Seminar on Tracking Animal Behavior at the Ruhr-University Bochum in WS21/22.
-<div style="text-align: right"> Janna, B.Sc. Psychology</div>
-<div style="text-align: right"> Beyza, B.Sc. Psychology</div>
+
+```{admonition} Project Authors
+Janna, `B.Sc. Psychology`, and Beyza, `B.Sc. Psychology`.
+```
 
 ## Abstract
 
