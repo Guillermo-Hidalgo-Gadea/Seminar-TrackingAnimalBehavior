@@ -2,12 +2,7 @@
 
 This short collection of datasets will help you get your hands dirty with actual examples in animal behavior! The videos provided serve the purpose of getting started with animal tracking software and data analysis, but do not cover entire experiments necessary for appropriate statistical analysis.
 
-The following datasets were kindly provided as open source material by the authors and developers mentioned below, as well as by colleagues from the Biopsychology department at the Ruhr-University Bochum. Please **refrain from any misuse** of this content. Consult with the lecturer before sharing any material on social media.   
-
-:::{note}
-The content of this book will be expanded and updated throughout the course!
-:::
-
+The following datasets were kindly provided as open source material by the authors and developers mentioned below, as well as by colleagues from the Biopsychology department at the Ruhr-University Bochum. Please **refrain from any misuse** of this content. Consult with the lecturer before sharing any material on social media.
 
 ## Mouse bottom view for VAME demo by [Kevin Luxem](https://github.com/LINCellularNeuroscience/VAME#getting-started)
 

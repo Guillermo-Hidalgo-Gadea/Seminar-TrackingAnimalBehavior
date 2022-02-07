@@ -1,43 +1,49 @@
-# Project Ideas
+# Projects
 
-This is only a preliminary collection of project ideas to get you inspired. You are encouraged to work in groups and develop your own projects. These can, but don't necessarily need to be oriented on the datasets and ideas provided here.  
+For your final group projects, try to get inspired by the datasets provided, but you are actively encouraged to work in groups and develop your own ideas. These can, but don't necessarily need to be oriented on the datasets and projects listed here:  
 
-## Non-human animals
+**Non-human animals:**
 
-* Analysis of pigeon posture
-* Analysis of mouse location and kinematics
-* Synchronicity of fly locomotion
+- Analysis of pigeon posture
+- Analysis of mouse location and kinematics
+- Synchronicity of fly locomotion
 
-## Human animals
+**Human animals:**
 
-* Tracking emotional facial expressions
-* Tracking hand movement and guitar chords
+- Tracking emotional facial expressions
+- Tracking hand movement and guitar chords
 
-## Meta-projects
+**Meta-projects:**
 
-* Compare tracking performance with different labels
-* Effects of video quality on tracking performance
+- Compare tracking performance with different amount of labels
+- Compare the effect of video quality on tracking performance
 
-# Group Projects
+## Group Projects
 
-:::{tip} Your final project will be featured here at the end of the course! 
-<iframe src="https://giphy.com/embed/s2qXK8wAvkHTO" width="300" frameBorder="0" class="giphy-embed" align="right"></iframe>
-:::
+```{margin}
+<iframe src="https://giphy.com/embed/s2qXK8wAvkHTO" width="300" frameBorder="0" class="giphy-embed"></iframe>
+```
 
-**The hopeful Handlers**  
-Detecting hand movements and different grips during typing, waving and playing music instruments
+```{tip}
+Your final project will be featured here at the end of the course!
+```
 
-**The cheeky Cheetahs**  
-Kinematic analysis of running cheetahs during active attack and 'other' running 
+**[The helpful Handlers](HelpfulHandlers.md)**  
+Detecting hand movements and different grips during typing, waving and playing music instruments    
+by **Sarah** and **Sarah**.
 
-**The picky Pigeons**  
-Compare tracking performance and accuracy of DLC models trained with different labels in Pigeons
+**[The cheeky Cheetahs](CheekyCheetahs.md)**  
+Kinematic analysis of cheetahs during hunting/running and other walking speeds   
+by **Janna** and **Beyza**.
 
-**Pigeons: same same, but different**  
-Compare tracking performance and accuracy of DLC models trained with different labels in Pigeons
+**[The picky Pigeons](PickyPigeons.md)**  
+Compare tracking performance and accuracy of DLC models trained with different labels in Pigeons   
+by **Jil**, **Lea**, **Laurin** and **Maurice**.
 
-**The hugging Humans**  
-something with humans or something more general, hugging?
+**[The hugging Humans](HuggingHumans.md)**  
+Analyze multi-animal body posture and orientation on hugging humans   
+by **Petunia**.
 
-**Restless Raterality**  
-Laterality in rats during a collins test
+**[Restless Raterality](RestlessRaterality.md)**  
+Investigating laterality in rats during a head turning test   
+by **Patrick** and **Sevim**.

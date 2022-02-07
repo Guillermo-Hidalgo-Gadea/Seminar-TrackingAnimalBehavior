@@ -32,14 +32,13 @@ parts:
     chapters:
     - file: DataSets
     - file: ProjectIdeas
+      sections:
+        - file: HelpfulHandlers
+        - file: CheekyCheetahs
+        - file: PickyPigeons
+        - file: HuggingHumans
+        - file: RestlessRaterality
   - caption: Feedback
     chapters:
     - file: feedbackform
     - file: contactform
-#    - file: archive
-#      sections:
-#      - file: notebooks
-#      - file: markdown
-#      - file: testnotebook
-
-

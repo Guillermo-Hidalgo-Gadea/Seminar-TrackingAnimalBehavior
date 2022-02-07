@@ -5,7 +5,7 @@
 
 # ## What libraries should I import?
 
-# In[ ]:
+# In[1]:
 
 
 import pandas as pd
@@ -16,17 +16,18 @@ import matplotlib.pyplot as plt
 # ## Recap
 # Dummy data for the following exercises is provided [here](https://ruhr-uni-bochum.sciebo.de/s/Svwxncw01Ir9uxw).
 
-# In[ ]:
+# In[2]:
 
 
-file = 'path/filename.csv'
+file = '/Users/guillermo/Downloads/pose-3d.csv'
 data = pd.read_csv(file, header=0)
-coords = data.loc[:,~data.columns.str.contains('score|error|ncams|fnum|center|M_')]
+coords = data.loc[:, ~data.columns.str.contains(
+    'score|error|ncams|fnum|center|M_')]
 
 
 # ## Position in space
 
-# In[ ]:
+# In[3]:
 
 
 position_x = coords['nose1_x']
@@ -41,13 +42,13 @@ plt.ylabel('Position [mm]')
 plt.legend()
 
 
-# In[ ]:
+# In[4]:
 
 
 position_x.hist()
 
 
-# In[ ]:
+# In[5]:
 
 
 x = coords['nose1_x']
@@ -55,11 +56,11 @@ y = coords['nose1_y']
 z = coords['nose1_z']
 
 # creating 3d figures
-fig = plt.figure(figsize=(10, 10));
+fig = plt.figure(figsize=(10, 10))
 ax = fig.add_subplot(projection='3d')
 
 # creating the path map
-img = ax.scatter(x, y, z, marker='o', s = 60, color='gray')
+img = ax.scatter(x, y, z, marker='o', s=60, color='gray')
 
 # adding title and labels
 ax.set_title("3D Path")
@@ -73,12 +74,12 @@ plt.show()
 
 # ## Velocity as difference between positions
 
-# In[ ]:
+# In[6]:
 
 
-velocity_x = np.append([0],np.diff(position_x, n=1)) 
-velocity_y = np.append([0],np.diff(position_y, n=1))
-velocity_z = np.append([0],np.diff(position_z, n=1))
+velocity_x = np.append([0], np.diff(position_x, n=1))
+velocity_y = np.append([0], np.diff(position_y, n=1))
+velocity_z = np.append([0], np.diff(position_z, n=1))
 
 vel_x, = plt.plot(velocity_x, label='x')
 vel_y, = plt.plot(velocity_y, label='y')
@@ -88,7 +89,7 @@ plt.ylabel('Velocity [mm/s]')
 plt.legend()
 
 
-# In[ ]:
+# In[7]:
 
 
 _ = plt.hist(velocity_x, bins='auto')
@@ -96,13 +97,13 @@ _ = plt.hist(velocity_x, bins='auto')
 
 # ## Acceleration as difference in velocity
 
-# In[ ]:
+# In[8]:
 
 
 # Acceleration of head movement as frame-to-frame difference in velocity
-acceleration_x = np.append([0],np.diff(velocity_x, n=1))
-acceleration_y = np.append([0],np.diff(velocity_y, n=1))
-acceleration_z = np.append([0],np.diff(velocity_z, n=1))
+acceleration_x = np.append([0], np.diff(velocity_x, n=1))
+acceleration_y = np.append([0], np.diff(velocity_y, n=1))
+acceleration_z = np.append([0], np.diff(velocity_z, n=1))
 
 acc_x, = plt.plot(acceleration_x, label='x')
 acc_y, = plt.plot(acceleration_y, label='y')
@@ -112,16 +113,16 @@ plt.ylabel('Acceleration [mm/s^2]')
 plt.legend()
 
 
-# In[ ]:
+# In[9]:
 
 
 _ = plt.hist(acceleration_x, bins='auto')
 
 
-# In[ ]:
+# In[10]:
 
 
-plt.figure(figsize=(6,6))
+plt.figure(figsize=(6, 6))
 plt.hist(acceleration_x, bins=100, alpha=0.5, label="acceleration_x")
 plt.hist(acceleration_y, bins=100, alpha=0.5, label="acceleration_y")
 plt.hist(acceleration_z, bins=100, alpha=0.5, label="acceleration_z")
@@ -131,11 +132,11 @@ plt.title("Multiple Histograms with Matplotlib")
 plt.legend(loc='upper right')
 
 
-# In[ ]:
+# In[11]:
 
 
 # Grouped plots
-_ = plt.figure(figsize=(6,6))
+_ = plt.figure(figsize=(6, 6))
 plt.violinplot(acceleration_x)
 plt.violinplot(acceleration_y)
 plt.violinplot(acceleration_z)
@@ -144,7 +145,7 @@ plt.ylabel("Count", size=14)
 plt.title("Multiple Violin Plots with Matplotlib")
 
 
-# In[ ]:
+# In[12]:
 
 
 # Combine data
