@@ -12,3 +12,18 @@
 
 * Nath, T., Mathis, A., Chen, A. C., Patel, A., Bethge, M., & Mathis, M. W. (2019). Using DeepLabCut for 3D markerless pose estimation across species and behaviors. Nature Protocols, 14(7), 2152–2176. https://doi.org/10.1038/s41596-019-0176-0
 
+## Recommended Reading
+
+```{admonition} Computer Age Statistical Inference
+:class: tip
+Efron, B., & Hastie, T. (2016). Computer Age Statistical Inference: Algorithms, Evidence, and Data Science (Institute of Mathematical Statistics Monographs). Cambridge: Cambridge University Press. doi:10.1017/CBO9781316576533
+
+ISBN: 9781316576533
+```
+
+```{admonition} Measuring Behaviour (An Introductory Guide) 4th Edition
+:class: tip
+Bateson, M., & Martin, P. (2021). Measuring Behaviour: An Introductory Guide (4th ed.). Cambridge: Cambridge University Press. doi:10.1017/9781108776462
+
+ISBN:  9781108745727
+```
