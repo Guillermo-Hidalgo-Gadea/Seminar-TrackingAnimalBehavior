@@ -68,6 +68,7 @@ replace with short video?
 
 ## Appendix
 
+List of labeld Keypoints for each individual in the maDLC project
 |           |           |           |           |           |           |
 | --------  | --------- | --------- | --------- | --------- | --------- |
 | - TopHead | - Eyes    | - Chin    | - Neck    | - LeftEar | - RightEar|
@@ -75,3 +76,4 @@ replace with short video?
 | - RightShoulder | - RightElbow | - RightHand | - RightThumb | - MiddleHip | - MiddleLowBack |
 | - LeftHip | - LeftKnee | - LeftHeel | - LeftToes | - RightHip | - RightKnee |
 | - RightHeel | - RightToes | | | | |
+|           |           |           |           |           |           |
