@@ -68,14 +68,10 @@ replace with short video?
 
 ## Appendix
 
-| | | | 
-| --------  | --------- | --------- |
-| - TopHead | - Eyes | - Chin |
-| - Neck | - LeftEar| - RightEar |
-| - MiddleChest | - MiddleHighBack | - LeftShoulder |
-| - LeftElbow | - LeftHand | - LeftThumb |
-| - RightShoulder | - RightElbow | - RightHand |
-| - RightThumb | - MiddleHip | - MiddleLowBack |
-| - LeftHip | - LeftKnee | - LeftHeel |
-| - LeftToes | - RightHip | - RightKnee |
-| - RightHeel | - RightToes | |
+|           |           |           |           |           |           |
+| --------  | --------- | --------- | --------- | --------- | --------- |
+| - TopHead | - Eyes    | - Chin    | - Neck    | - LeftEar | - RightEar|
+| - MiddleChest | - MiddleHighBack | - LeftShoulder | - LeftElbow | - LeftHand | - LeftThumb |
+| - RightShoulder | - RightElbow | - RightHand | - RightThumb | - MiddleHip | - MiddleLowBack |
+| - LeftHip | - LeftKnee | - LeftHeel | - LeftToes | - RightHip | - RightKnee |
+| - RightHeel | - RightToes | | | | |
