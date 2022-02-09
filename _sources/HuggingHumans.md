@@ -58,7 +58,7 @@ The tracking of the different body parts in the videos was problematic. This pro
 
 ```{figure} content/Hugginghumansfig3.svg
 ---
-width: 900px
+width: 600px
 name: Hugginghumansfig3
 ---
 Labeled videos after the model was trained. One frequent problem can be seen through the different colored labeling. The colors should separate the individuals from one another, but body parts got confused in many frames. Here I (Petunia) have my own face but Marius' leg. 
@@ -68,29 +68,14 @@ replace with short video?
 
 ## Appendix
 
-- TopHead
-- Eyes
-- Chin
-- Neck
-- LeftEar
-- RightEar
-- MiddleChest
-- MiddleHighBack
-- LeftShoulder
-- LeftElbow
-- LeftHand
-- LeftThumb
-- RightShoulder
-- RightElbow
-- RightHand
-- RightThumb
-- MiddleHip
-- MiddleLowBack
-- LeftHip
-- LeftKnee
-- LeftHeel
-- LeftToes
-- RightHip
-- RightKnee
-- RightHeel
-- RightToes
+| | | | 
+| --------  | --------- | --------- |
+| - TopHead | - Eyes | - Chin |
+| - Neck | - LeftEar| - RightEar |
+| - MiddleChest | - MiddleHighBack | - LeftShoulder |
+| - LeftElbow | - LeftHand | - LeftThumb |
+| - RightShoulder | - RightElbow | - RightHand |
+| - RightThumb | - MiddleHip | - MiddleLowBack |
+| - LeftHip | - LeftKnee | - LeftHeel |
+| - LeftToes | - RightHip | - RightKnee |
+| - RightHeel | - RightToes | |
