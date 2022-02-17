@@ -368,10 +368,39 @@
   <a class="reference internal nav-link" href="#method">
    Method
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#recording">
+     Recording
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#labeling">
+     Labeling
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#results">
    Results
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#labeled-images">
+     Labeled Images
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#labeled-videos">
+     Labeled Videos
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#appendix">
+   Appendix
   </a>
  </li>
 </ul>
@@ -403,10 +432,39 @@
   <a class="reference internal nav-link" href="#method">
    Method
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#recording">
+     Recording
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#labeling">
+     Labeling
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#results">
    Results
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#labeled-images">
+     Labeled Images
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#labeled-videos">
+     Labeled Videos
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#appendix">
+   Appendix
   </a>
  </li>
 </ul>
@@ -427,6 +485,7 @@
 </div>
 <div class="section" id="abstract">
 <h2>Abstract<a class="headerlink" href="#abstract" title="Permalink to this headline">¶</a></h2>
+<p>Human embraces are an interesting research topic since the behavior does not only need the coordinated movement of multiple body parts within one person but coordinated movement between individuals.</p>
 </div>
 <div class="section" id="method">
 <h2>Method<a class="headerlink" href="#method" title="Permalink to this headline">¶</a></h2>
@@ -434,9 +493,98 @@
 <a class="reference internal image-reference" href="_images/Hugginghumansfig0.svg"><img alt="_images/Hugginghumansfig0.svg" src="_images/Hugginghumansfig0.svg" width="900px" /></a>
 <p class="caption"><span class="caption-number">Fig. 19 </span><span class="caption-text">Labeling Scheme for multi animal DeepLabCut model</span><a class="headerlink" href="#hugginghumansfig0" title="Permalink to this image">¶</a></p>
 </div>
+<div class="section" id="recording">
+<h3>Recording<a class="headerlink" href="#recording" title="Permalink to this headline">¶</a></h3>
+<p>To get the data, multiple videos oft two people hugging were recorded from different angles.</p>
+</div>
+<div class="section" id="labeling">
+<h3>Labeling<a class="headerlink" href="#labeling" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default" id="hugginghumansfig1">
+<a class="reference internal image-reference" href="_images/Hugginghumansfig1.svg"><img alt="_images/Hugginghumansfig1.svg" src="_images/Hugginghumansfig1.svg" width="900px" /></a>
+<p class="caption"><span class="caption-number">Fig. 20 </span><span class="caption-text">Resulting skeletons after the labeling process</span><a class="headerlink" href="#hugginghumansfig1" title="Permalink to this image">¶</a></p>
+</div>
+<p>Above you can see the skeleton after the labeling process. Labels were placed on 25 different body parts starting on the top of the head and going all the way down to the toes. A detailed list of all markers can be found in Appendix A.</p>
+<p>During labeling some problems arose, making the process difficult. On many pictures only a few markers could be placed since the others were occluded by the other person or not captured by the cameras. Skipping most markers on the different body parts took a lot of time and led to very different amounts of labeled data regarding the different body parts. While faces could be seen in many of the frames, the hips and knees were often hidden. Another problem was that the dark and long clothes made it hard to precisely estimate the intended location. Deciding whether a certain body part could be seen in a specific frame or if it was simply due to prior knowledge of „where the body part should be“ was not always simple. Figure 1 shows some of the resulting skeletons after the labeling process was done.</p>
+</div>
 </div>
 <div class="section" id="results">
 <h2>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="labeled-images">
+<h3>Labeled Images<a class="headerlink" href="#labeled-images" title="Permalink to this headline">¶</a></h3>
+<p>The model was trained over the Christmas holidays. The results can be seen in Figure 2. The left part of the figure shows the accuracy on the trainings-data. Here we can see, that DeepLabCut performed very well, even though there were many problems during the labeling process. The right part of the figure shows the performance on previously unseen test-data. Here the model performs slightly worse, but still the accuracy seems very high.</p>
+<div class="figure align-default" id="hugginghumansfig2">
+<a class="reference internal image-reference" href="_images/Hugginghumansfig2.svg"><img alt="_images/Hugginghumansfig2.svg" src="_images/Hugginghumansfig2.svg" width="900px" /></a>
+<p class="caption"><span class="caption-number">Fig. 21 </span><span class="caption-text">Left: Model performance on previously seen trainings-data. Right: Model-performance on previously unseen test-data.</span><a class="headerlink" href="#hugginghumansfig2" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="labeled-videos">
+<h3>Labeled Videos<a class="headerlink" href="#labeled-videos" title="Permalink to this headline">¶</a></h3>
+<p>The tracking of the different body parts in the videos was problematic. This problem was most likely due to many factors, one of them being a mistake in the config.yamel file. The identity was not set to „True“ – which resulted in confusion of the body parts of the hugging people. As can be seen in Figure 3, the labels are in 2 different colors. Those colors are to separate the humans from each other. My (Petunia) color should be black and that of Marius is supposed to be yellow in all frames. But as can be seen below, I seem to have my own face, but the leg of Marius. Next to this body part-confusion, many points weren’t labeled at all, even though they can be clearly seen in the frame (e.g., my right shoulder, Marius left shoulder, …).</p>
+<div class="figure align-default" id="hugginghumansfig3">
+<a class="reference internal image-reference" href="_images/Hugginghumansfig3.svg"><img alt="_images/Hugginghumansfig3.svg" src="_images/Hugginghumansfig3.svg" width="600px" /></a>
+<p class="caption"><span class="caption-number">Fig. 22 </span><span class="caption-text">Labeled videos after the model was trained. One frequent problem can be seen through the different colored labeling. The colors should separate the individuals from one another, but body parts got confused in many frames. Here I (Petunia) have my own face but Marius’ leg.</span><a class="headerlink" href="#hugginghumansfig3" title="Permalink to this image">¶</a></p>
+</div>
+<p>replace with short video?</p>
+</div>
+</div>
+<div class="section" id="appendix">
+<h2>Appendix<a class="headerlink" href="#appendix" title="Permalink to this headline">¶</a></h2>
+<p>List of labeld Keypoints for each individual in the maDLC project</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>- TopHead</p></td>
+<td><p>- Eyes</p></td>
+<td><p>- Chin</p></td>
+<td><p>- Neck</p></td>
+<td><p>- LeftEar</p></td>
+<td><p>- RightEar</p></td>
+</tr>
+<tr class="row-odd"><td><p>- MiddleChest</p></td>
+<td><p>- MiddleHighBack</p></td>
+<td><p>- LeftShoulder</p></td>
+<td><p>- LeftElbow</p></td>
+<td><p>- LeftHand</p></td>
+<td><p>- LeftThumb</p></td>
+</tr>
+<tr class="row-even"><td><p>- RightShoulder</p></td>
+<td><p>- RightElbow</p></td>
+<td><p>- RightHand</p></td>
+<td><p>- RightThumb</p></td>
+<td><p>- MiddleHip</p></td>
+<td><p>- MiddleLowBack</p></td>
+</tr>
+<tr class="row-odd"><td><p>- LeftHip</p></td>
+<td><p>- LeftKnee</p></td>
+<td><p>- LeftHeel</p></td>
+<td><p>- LeftToes</p></td>
+<td><p>- RightHip</p></td>
+<td><p>- RightKnee</p></td>
+</tr>
+<tr class="row-even"><td><p>- RightHeel</p></td>
+<td><p>- RightToes</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
