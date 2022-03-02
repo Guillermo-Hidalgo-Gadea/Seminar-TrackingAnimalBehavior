@@ -1,21 +1,23 @@
-# Recent advances in computational ethology 
+# Recent advances in computational ethology
 
-New advances in computer vision and machine learning have led to a great **boom of new techniques** to track animals from video data and analyze their behavior. For a quick overview of the number of different techniques developed in computational ethology I recommend a [paper compilation](https://github.com/anl13/animal_papers) on Github by An Liang. 
+New advances in computer vision and machine learning have led to a great **boom of new techniques** to track animals from video data and analyze their behavior. For a quick overview of the number of different techniques developed in computational ethology I recommend a [paper compilation](https://github.com/anl13/animal_papers) on Github by An Liang.
 
 ## New Techniques
+
 Some of the most popular methods are:
-| | | | 
+| | | |
 | --------  | --------- | --------- |
-| [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) | Multi-animal DeepLabCut | [Anipose](https://github.com/lambdaloop/anipose) / DeepLabCut for 3D 
-| [DANNCE](https://github.com/spoonsso/dannce) | [Etholoop](http://etholoop.org/) | [DeepPoseKit](https://github.com/jgraving/deepposekit) | 
-| [DeepEthogram](https://github.com/jbohnslav/deepethogram) | [SLEAP](https://github.com/murthylab/sleap) | [MARS](https://neuroethology.github.io/MARS/) | 
-| [VAME](https://github.com/LINCellularNeuroscience/VAME) | [B-SOiD](https://github.com/YttriLab/B-SOID) | [SMAL](https://smal.is.tue.mpg.de/index.html) | 
-| | | **... and many more**| 
+| [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) | Multi-animal DeepLabCut | [Anipose](https://github.com/lambdaloop/anipose) / DeepLabCut for 3D
+| [DANNCE](https://github.com/spoonsso/dannce) | [Etholoop](http://etholoop.org/) | [DeepPoseKit](https://github.com/jgraving/deepposekit) |
+| [DeepEthogram](https://github.com/jbohnslav/deepethogram) | [SLEAP](https://github.com/murthylab/sleap) | [MARS](https://neuroethology.github.io/MARS/) |
+| [VAME](https://github.com/LINCellularNeuroscience/VAME) | [B-SOiD](https://github.com/YttriLab/B-SOID) | [SMAL](https://smal.is.tue.mpg.de/index.html) |
+| | | **... and many more**|
 
 These methods all differ in their **user-friendliness** for non-software developers, but also in the techniques used for marker-based or pixel-based **pose estimation**, overall **model architecture**, individual or social **scene complexity**, behavior **clustering method**, use of supervised or unsupervised **machine learning**, and the degree of **self-sufficiency**.
 
 ## Fields of research
-These methods have been used so far to analyze behavior (ethology) and the link between behavior and neural activity (neuroethology) in animals such as humans, chimpanzees, macaques, cats, mice, rats, bats, octopus, lizards, ants, and many many more.    
+
+These methods have been used so far to analyze behavior (ethology) and the link between behavior and neural activity (neuroethology) in animals such as humans, chimpanzees, macaques, cats, mice, rats, bats, octopus, lizards, ants, and many many more.
 See for yourself:
 
 <table>
@@ -79,6 +81,7 @@ See for yourself:
 
 :::{admonition} Exercise
 :class: warning
-Choose one of the Tweets above and try to find out its background. Who posted it? Where does she work? What is her role? Can you find her research online? How has she used DeepLabCut, and what for?   
+Choose one of the Tweets above and try to find out its background. Who posted it? Where does she work? What is her role? Can you find her research online? How has she used DeepLabCut, and what for?
+
 **Skim the web for 10 minutes and present your chosen tweet to the group.**
 :::
