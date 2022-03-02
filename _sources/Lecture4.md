@@ -5,13 +5,32 @@ New advances in computer vision and machine learning have led to a great **boom 
 ## New Techniques
 
 Some of the most popular methods are:
-| | | |
-| --------  | --------- | --------- |
-| [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) | Multi-animal DeepLabCut | [Anipose](https://github.com/lambdaloop/anipose) / DeepLabCut for 3D
-| [DANNCE](https://github.com/spoonsso/dannce) | [Etholoop](http://etholoop.org/) | [DeepPoseKit](https://github.com/jgraving/deepposekit) |
-| [DeepEthogram](https://github.com/jbohnslav/deepethogram) | [SLEAP](https://github.com/murthylab/sleap) | [MARS](https://neuroethology.github.io/MARS/) |
-| [VAME](https://github.com/LINCellularNeuroscience/VAME) | [B-SOiD](https://github.com/YttriLab/B-SOID) | [SMAL](https://smal.is.tue.mpg.de/index.html) |
-| | | **... and many more**|
+
+```{panels}
+[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut)
+---
+[Anipose](https://github.com/lambdaloop/anipose)
+---
+[DANNCE](https://github.com/spoonsso/dannce)
+---
+[Etholoop](http://etholoop.org/) 
+---
+[DeepPoseKit](https://github.com/jgraving/deepposekit)
+---
+[DeepEthogram](https://github.com/jbohnslav/deepethogram)
+---
+[SLEAP](https://github.com/murthylab/sleap)
+---
+[MARS](https://neuroethology.github.io/MARS/)
+---
+[VAME](https://github.com/LINCellularNeuroscience/VAME) 
+---
+[B-SOiD](https://github.com/YttriLab/B-SOID)
+---
+[SMAL](https://smal.is.tue.mpg.de/index.html) 
+---
+... [and many more!](https://github.com/anl13/animal_papers)
+```
 
 These methods all differ in their **user-friendliness** for non-software developers, but also in the techniques used for marker-based or pixel-based **pose estimation**, overall **model architecture**, individual or social **scene complexity**, behavior **clustering method**, use of supervised or unsupervised **machine learning**, and the degree of **self-sufficiency**.
 
