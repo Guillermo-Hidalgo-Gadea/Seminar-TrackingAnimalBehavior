@@ -4,6 +4,10 @@ This short collection of datasets will help you get your hands dirty with actual
 
 The following datasets were kindly provided as open source material by the authors and developers mentioned below, as well as by colleagues from the Biopsychology department at the Ruhr-University Bochum. Please **refrain from any misuse** of this content. Consult with the lecturer before sharing any material on social media.
 
+## Shared Cloud Space
+
+The data used in the exercises and hands on tutorials can be downloaded from this shared cloud directory on **Sciebo:** [https://ruhr-uni-bochum.sciebo.de/s/U319df4P4Lq4WJh](https://ruhr-uni-bochum.sciebo.de/s/U319df4P4Lq4WJh)
+
 ## Mouse bottom view for VAME demo by [Kevin Luxem](https://github.com/LINCellularNeuroscience/VAME#getting-started)
 
 Freely behaving mice in open field exploration experiment. Mice were placed in the center of a circular area of transparent Plexiglas floor with diameter of 50 cm surrounded by a transparent Plexiglas wall with height of 50 cm. Mouse behavior was recorded by a CMOS camera (Basler acA2000-165umNIR) equipped with wide angle lens (CVO GM24514MCN, Stemmer Imaging) that was placed centrally 35 cm below the arena. Three infrared light sources (LIU780A, Thorlabs) were placed 70 cm away from the center, providing homogeneous illumination of the recording arena from below. All recordings were performed at dim room light conditions.
@@ -24,7 +28,6 @@ We positioned seven Basler acA1920-155um cameras (FUJIFILM AG, Niederhaslistrass
 ```{toggle}
 <div><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><figure style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%; margin-block-end: 0; margin-block-start: 0; margin-inline-start: 0; margin-inline-end: 0;" ><iframe src="https://media.publit.io/file/demo-fly.mp4" scrolling="no" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute; overflow:hidden;" allowfullscreen=""></iframe></figure></div></div>
 ```
-
 
 ## Pigeon in Skinnerbox for 3D analysis by [Guillermo Hidalgo Gadea](https://www.bio.psy.ruhr-uni-bochum.de/members_guillermo.html)
 
@@ -64,11 +67,9 @@ Six subjects were recorded for up to 60 seconds in a synchronized multi-view set
 
 2) There are some great open source initiatives you could check out that share video repositories of animal behavior data such as [OpenBehavior](https://edspace.american.edu/openbehavior/video-repository/video-repository-2/). Additionally, more and more authors make their video data partially available.  
 
-3) You can also gather video material from online sources like youtube with [Youtube-dl](https://youtube-dl.org/). Please **handle with care**. Downloaded videos should be used only for educational purposes and are not to be distributed. 
+3) You can also gather video material from online sources like youtube with [Youtube-dl](https://youtube-dl.org/). Please **handle with care**. Downloaded videos should be used only for educational purposes and are not to be distributed.
 
     In your terminal execute:
     * ```pip install youtube_dl```
     * ```cd Downloads```
     * ```youtube-dl 'https://www.youtube.com/watch?v=7j6mGVDfTHM' -f 'bestvideo[ext=mp4]/best[ext=mp4]/best'```
-
-

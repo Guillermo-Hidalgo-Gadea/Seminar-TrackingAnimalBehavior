@@ -439,24 +439,23 @@
 <p>DeepLabCut will need to use python and several python related libraries (i.e, a specific python environment), so the first step should be installing <a class="reference external" href="https://docs.anaconda.com/anaconda/install/">Anaconda</a>.<br />
 You can then create a designated environment and install DeepLabCut:</p>
 <ol class="simple">
-<li><p>Download this <a class="reference external" href="http://www.mackenziemathislab.org/s/DEEPLABCUT.yaml">installation file</a></p></li>
-<li><p>Open Terminal and execute:</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">Downloads</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span> <span class="pre">-f</span> <span class="pre">DEEPLABCUT.yaml</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">activate</span> <span class="pre">DEEPLABCUT</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">--upgrade</span> <span class="pre">deeplabcut</span></code></p></li>
-</ul>
-</li>
+<li><p>Download the installation file from here: <a class="reference external" href="http://www.mackenziemathislab.org/s/DEEPLABCUT.yaml">http://www.mackenziemathislab.org/s/DEEPLABCUT.yaml</a></p></li>
+<li><p>Open Terminal and execute:</p></li>
 </ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">Downloads</span>
+<span class="n">conda</span> <span class="n">env</span> <span class="n">create</span> <span class="o">-</span><span class="n">f</span> <span class="n">DEEPLABCUT</span><span class="o">.</span><span class="n">yaml</span>
+<span class="n">conda</span> <span class="n">activate</span> <span class="n">DEEPLABCUT</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">upgrade</span> <span class="n">deeplabcut</span>
+</pre></div>
+</div>
 </div>
 <div class="section" id="starting-the-deeplabcut-gui">
 <h2>Starting the DeepLabCut GUI<a class="headerlink" href="#starting-the-deeplabcut-gui" title="Permalink to this headline">¶</a></h2>
-<ol class="simple">
-<li><p>Open Anaconda Prompt</p></li>
-<li><p>conda activate DEEPLABCUT (environment)</p></li>
-<li><p>python -m deeplabcut</p></li>
-</ol>
+<p>Open Anaconda Prompt and execute:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">DEEPLABCUT</span> <span class="c1">#or your environment name</span>
+<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">deeplabcut</span>
+</pre></div>
+</div>
 </div>
 <div class="section" id="downloading-jupyter-notebooks">
 <h2>Downloading Jupyter Notebooks<a class="headerlink" href="#downloading-jupyter-notebooks" title="Permalink to this headline">¶</a></h2>
@@ -471,7 +470,7 @@ You can then create a designated environment and install DeepLabCut:</p>
 <div class="section" id="documentation">
 <h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
 <p>Check the DeepLabCut documentation for more background and tips on how to get started.</p>
-<iframe src="https://deeplabcut.github.io/DeepLabCut/docs/intro.html" frameborder="0.1" width="800" height="600"></iframe>
+<iframe src="https://deeplabcut.github.io/DeepLabCut/docs/intro.html" frameborder="1" width="800" height="600"></iframe>
 </div>
 <div class="toctree-wrapper compound">
 </div>
